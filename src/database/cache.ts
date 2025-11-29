@@ -45,7 +45,6 @@ export class DataCache<TData> extends ResourceConsumer {
         }
  
         DataCache.cacheMisses++;
-
         this.consume(CACHE_READ);
 
         return undefined;
